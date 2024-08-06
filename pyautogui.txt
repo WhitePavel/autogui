@@ -1,0 +1,19 @@
+import pyautogui as pg - импорт нужной библиотеки
+
+pg.move(x,y,V)
+где x,y - координата от стартовой точки мышки а V - скорость переноса
+
+pg.moveTo(x,y,V) - переносит мышку с точки крайнего верхнего угла
+
+pg.drag(x,y,V,button='left')- переносит мышку в зажатом состоянии
+
+print(pg.position())- показывает позицию мышки 
+pg.click(x,y) - забираем координаты из position и происходит нажатие
+pg.leftClick(x,y,duration=) - левый клик
+pg.rightClick(x,y,duration=) - правый клик
+pg.doubleClick(x,y,duration=) - двойное нажатие
+pg.typewrite("Hello world,") - программа введёт hello world 
+pg.typewrite(["enter"]) - программа нажмёт enter
+pg.hotkey("winleft") - нажатие на горящую клавишу win слева
+pg.typewrite("chrome\n",0.5) - \n -симулирует нажатие на enter
+pg.screenshot(x) - x название скриншота

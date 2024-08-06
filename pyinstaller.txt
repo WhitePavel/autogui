@@ -1,0 +1,7 @@
+pip install pyinstaller - скачать библиотеку pyinstaller
+
+из командной строки прописываем на нужный файл
+pyinstaller --noconsole --onefile  **** 
+*** - файл пайтона
+--noconsole - скрывает консоль
+--onefile - один файл в папке dist
